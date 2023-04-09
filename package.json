@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.25.0",
+  "scripts": {
+    "dev": "vite --port 3000 --open",
+    "lint": "eslint . --ext .vue,.ts,.html --fix"
+  },
+  "keywords": [],
+  "author": "mryujianjun.cn@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@vueuse/head": "^1.1.23",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-ssg": "^0.22.2"
+  },
+  "eslintConfig": {
+    "extends": "@antfu",
+    "rules": {}
+  }
+}
