@@ -4,4 +4,6 @@
 
 <template>
   hi, yujianjun
+
+  <router-view />
 </template>
