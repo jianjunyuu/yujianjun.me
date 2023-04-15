@@ -3,6 +3,7 @@
   "packageManager": "pnpm@7.25.0",
   "scripts": {
     "dev": "vite --port 3000 --open",
+    "build": "vite-ssg build",
     "lint": "eslint . --ext .vue,.ts,.html --fix"
   },
   "keywords": [],
