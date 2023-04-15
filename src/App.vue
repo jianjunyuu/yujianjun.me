@@ -7,6 +7,13 @@
 
   <div class="center">
     <Profile />
+    <br>
+    <br>
+    <Packages />
+    <br>
+    <br>
+    <br>
+    <Articles />
   </div>
 </template>
 
@@ -16,6 +23,6 @@
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 800px;
+  min-width: 980px;
 }
 </style>
