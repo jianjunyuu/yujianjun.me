@@ -20,7 +20,7 @@ const lists: Array<Item> = [
     Articles
   </div>
 
-  <a v-for="(item, index) in lists" :key="index" :href="item.url" class="item">{{ index + 1 }}. {{ item.name }}</a>
+  <a v-for="(item, index) in lists" :key="index" :href="item.url" class="item" target="_blank">{{ index + 1 }}. {{ item.name }}</a>
 </template>
 
 <style lang="scss" scoped>

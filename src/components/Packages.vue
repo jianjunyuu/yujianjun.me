@@ -28,8 +28,8 @@ const lists: Array<Item> = [
   <div v-for="(item, index) in lists" :key="index" class="item">
     <icon-iconoir:npm v-if="item.from === 'npm'" />
     <icon-octicon:repo v-else-if="item.from === 'repo'" />
-    <a :href="item.url">{{ item.name }}</a>
-    <span v-if="item.demo" class="demo">[<a :href="item.demo">demo</a>]</span>
+    <a :href="item.url" target="_blank">{{ item.name }}</a>
+    <span v-if="item.demo" class="demo">[<a :href="item.demo" target="_blank">demo</a>]</span>
   </div>
 </template>
 
