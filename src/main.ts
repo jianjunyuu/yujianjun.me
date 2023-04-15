@@ -1,5 +1,7 @@
+import '@unocss/reset/tailwind.css'
+import './styles/main.scss'
+
 import { ViteSSG } from 'vite-ssg'
-import {} from 'vite'
 import App from './App.vue'
 import autoRoutes from '~pages'
 
